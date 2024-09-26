@@ -37,15 +37,15 @@ const DraClarissaSection = () => {
                   <h4 className='text-lg'>Especializações & Cursos</h4>
                   <ul className='list-disc pt-4 px-6 text-[#585858]'>
                     <li>
-                      "Ações em Face das Operadoras de Plano de Saúde” - ESA/RJ 
+                      Ações em Face das Operadoras de Plano de Saúde - ESA/RJ 
                     </li>
-                    <li>“Reembolso de Plano de Saúde: Manual para Advogados” - EBRASA</li>
-                    <li>“Inventário, divórcio e Partilha Extrajudicial” - ESA/RJ</li>
-                    <li>“Inventário na Prática” - OAB - Niterói</li>
-                    <li>“Atualização do código do Consumidor com a nova Lei do Superendividamento” - Tríade Estudos Jurídicos</li>
-                    <li>“Curso Entendendo a Reforma da Previdência” - OAB/RJ</li>
-                    <li>“Direito dos Contratos” - EMERJ</li>
-                    <li>“Direito Sucessório na Prática - Judicial e Extrajudicial” - Tríade Estudos Jurídicos</li>
+                    <li>Reembolso de Plano de Saúde: Manual para Advogados - EBRASA</li>
+                    <li>Inventário, divórcio e Partilha Extrajudicial - ESA/RJ</li>
+                    <li>Inventário na Prática - OAB - Niterói</li>
+                    <li>Atualização do código do Consumidor com a nova Lei do Superendividamento - Tríade Estudos Jurídicos</li>
+                    <li>Curso Entendendo a Reforma da Previdência - OAB/RJ</li>
+                    <li>Direito dos Contratos - EMERJ</li>
+                    <li>Direito Sucessório na Prática - Judicial e Extrajudicial - Tríade Estudos Jurídicos</li>
                   </ul>
 
                 </div>
