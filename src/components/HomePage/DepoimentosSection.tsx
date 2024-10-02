@@ -24,7 +24,7 @@ const DepoimentosSection = () => {
         AutoScroll({ playOnInit: true, stopOnInteraction: false, speed: 0.5 })
       ])
   return (
-    <div className='py-[100px]'>
+    <div id='depoimentos' className='py-[100px]'>
 
         
         <div className='flex-col relative h-full items-center justify-center w-full '>

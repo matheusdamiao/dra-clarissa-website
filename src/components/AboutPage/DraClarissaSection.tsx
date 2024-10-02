@@ -15,7 +15,7 @@ const DraClarissaSection = () => {
                 Dra. Clarissa Dias
                 </h2>
                 <p className='max-w-[520px] text-[#585858]'>
-                Dra. Clarissa Dias é advogada com vasta experiência em Direito Cível, Direito do Consumidor, Direito de Família, Direito Ambiental e Empresarial. 
+                Com mais de 8 anos de experiência jurídica, Dra. Clarissa Dias é especialista em Direito Cível, Direito do Consumidor e Direito de Família e Sucessões. 
                 <br /> <br />
                 Ao longo de sua carreira, tem se destacado pela atuação proativa e focada na resolução eficiente de conflitos, oferecendo consultoria jurídica especializada para pessoas físicas e jurídicas.
                 <br /><br />
@@ -26,7 +26,7 @@ const DraClarissaSection = () => {
                   <h4  className='text-lg'>Formação Acadêmica</h4>
                   <ul className='list-disc pt-4 px-6 text-[#585858]'>
                     <li>
-                    Pós-graduada em Direito Previdenciário
+                    Pós-graduanda em Direito Previdenciário
                     </li>
                     <li>Pós-graduada em Direito Público - UCAM (2019)</li>
                     <li>Graduada em Direito - Universidade Estácio de Sá (2016)</li>

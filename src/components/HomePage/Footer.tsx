@@ -21,18 +21,18 @@ const Footer = () => {
 
                 <div className='flex flex-col gap-4'>
                     <p className='text-[#FFFFFF]'> Horário de atendimento</p>
-                    <small className='text-sm text-[#acacac]'>Seg - Sex: 8h - 18h </small>
+                    <small className='text-sm text-[#acacac]'>Seg - Sex: 10h - 18h </small>
                 </div>
 
 
                 <div className='flex flex-col gap-6  '>
                     <div className='flex  gap-5'>
                         <Image src={phone} alt='icone' width={27} height={27}/>
-                        <p className='text-[#CDCDCD] text-sm'>(21) 92272-3020</p>
+                        <p className='text-[#CDCDCD] text-sm'>(21) 97227-1885</p>
                     </div>
                     <div className='flex gap-5'>
                         <Image src={mail} alt='icone' width={27} height={27}/>
-                        <p className='text-[#CDCDCD] text-sm'>contato@draclarissadias.com.br</p>
+                        <p className='text-[#CDCDCD] text-sm'>clarissadias.adv@gmail.com</p>
                     </div>
                     <div className='flex gap-5'>
                          <Image src={map} alt='icone' width={27} height={27}/>
@@ -48,20 +48,22 @@ const Footer = () => {
                     <ul className='flex flex-col gap-4 text-[#aaaaaa]'>
                         <li><Link href='/#depoimentos'>Depoimentos</Link></li>
                         <li><Link href='/#especialidades'>Especialidades</Link></li>
-                        <li><Link href='/#depoimentos'>Diferenciais</Link></li>
-                        <li><Link href='/#depoimentos'>Sobre o Escritório</Link></li>
-                        <li><Link href='/#depoimentos'>Entre em contato</Link></li>
+                        <li><Link href='/#diferenciais'>Diferenciais</Link></li>
+                        <li><Link href='/sobre'>Sobre o Escritório</Link></li>
+                        <li><Link href='/#contato'>Entre em contato</Link></li>
 
                     </ul>
                 </div>
                 <div className='flex flex-col gap-8 text-white'>
                     <h5>Áreas do Direito</h5>
                     <ul className='flex flex-col gap-4 text-[#aaaaaa]'>
-                        <li><Link href='/#depoimentos'>Direito Civil</Link></li>
-                        <li><Link href='/#especialidades'>Direito do Consumidor</Link></li>
-                        <li><Link href='/#depoimentos'>Direito de Família</Link></li>
-                        <li><Link href='/#depoimentos'>Direito à Saúde</Link></li>
-                        <li><Link href='/#depoimentos'>Direito Trabalhista</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito Civil</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito do Consumidor</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito de Família</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito à Saúde</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito Previdenciário</Link></li>
+                        <li><Link href='/areas-de-atuacao'>Direito Trabalhista</Link></li>
+
 
                     </ul>
                 </div>
@@ -70,13 +72,13 @@ const Footer = () => {
 
         </div>
 
-        <div className='flex text-xs justify-center lg:justify-between gap-4 flex-wrap py-8 text-[#CDCDCD]'>
+        <div className='flex text-sm justify-center lg:justify-between gap-4 flex-wrap py-8 text-[#CDCDCD]'>
 
             <small> Todos os direitos Reservados - 2024</small>
 
             <small>Clarissa Dias - Advocacia e Consultoria Jurídica </small>
 
-            <small>Desenvolvido por Matheus Damião</small>
+            <small> <a href='https://matheusdamiao.com.br' target='_blank'>Desenvolvido por Matheus Damião</a></small>
         </div>
 
       </div>
