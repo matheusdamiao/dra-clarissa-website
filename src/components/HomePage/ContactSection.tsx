@@ -46,23 +46,23 @@ const ContactSection = () => {
                         <Image alt='icone' src={zap} width={32} height={32}/>
                         <p className='text-base font-bold text-[#686868]'>WhatsApp</p>
                     </div>
-                    <p className='text-[#686868] text-base '>(21) 99383-29393</p>
+                    <p className='text-[#686868] text-base '>(21) 97227-1885</p>
                 </div>
 
-                <div className='flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6'>
+                {/* <div className='flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6'>
                     <div className='flex items-center gap-3'>
                         <Image alt='icone' src={phone} width={32} height={32}/>
                         <p className='text-base font-bold text-[#686868]'>Telefone</p>
                     </div>
                     <p className='text-[#686868] lg:text-base'>(21) 99383-29393</p>
-                </div>
+                </div> */}
 
                 <div className='flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6'>
                     <div className='flex items-center gap-3'>
                         <Image alt='icone' src={mail} width={32} height={32}/>
                         <p className='text-base font-bold text-[#686868]'>E-mail</p>
                     </div>
-                    <p className='text-[#686868] lg:text-base'> contato@draclarissadias.com.br </p>
+                    <p className='text-[#686868] lg:text-base'> clarissadias.adv@gmail.com </p>
                 </div>
 
                 <div className='flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6'>
