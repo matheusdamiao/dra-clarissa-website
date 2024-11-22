@@ -2,7 +2,7 @@
 import React from 'react'
 import Button from '../Button'
 import Image from 'next/image'
-import foto from './../../../public/images/foto-secao-about-da-home.png'
+import foto from './../../../public/images/foto-nova-clarissa-2.png'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import useAnimateOnView from '@/utils/useAnimateOnView'
@@ -46,7 +46,7 @@ const AboutSection = () => {
                  }}
                  transition={{delay: 0.2, duration: 1}}
                 className='max-w-[420px] text-[#585858]'>
-                    Com mais de 10 anos de experiência em Direito Cível, Dra. Clarissa Dias oferece soluções jurídicas personalizadas, priorizando sempre o bem-estar e a tranquilidade de seus clientes.
+                    Com mais de 8 anos de experiência em Direito Cível, Dra. Clarissa Dias oferece soluções jurídicas personalizadas, priorizando sempre o bem-estar e a tranquilidade de seus clientes.
                 </motion.p>
 
                 <Link href='/sobre'><Button margin='mt-[25px]' textColor='#0000' size='max-w-[300px]' bgColor='bg-[#F4E1D2]'> Conheça nossa história</Button></Link>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../Button'
 import Image from 'next/image'
-import foto from './../../../public/images/foto-dra-clarissa.png'
+import foto from './../../../public/images/foto-nova-clarissa-4.png'
 
 const DraClarissaSection = () => {
   return (

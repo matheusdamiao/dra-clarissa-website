@@ -1,19 +1,30 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Button from '../Button'
 import Link from 'next/link'
 import useAnimateOnView from '@/utils/useAnimateOnView'
 import { motion } from 'framer-motion'
+import { s } from 'framer-motion/client'
 
 const HeroSectionHome = () => {
+
+
+  const refVideo = useRef<HTMLVideoElement | null>(null)
+
+  useEffect(()=>{
+    if(refVideo.current){
+      refVideo.current.currentTime = 8
+    }
+
+  },[])
 
   const {TitleAnimation, animationControls, ref } = useAnimateOnView()
   return (
     <div className='relative h-[95svh] lg:h-[85svh] w-full bg-black' >
       <div className='max-w-7xl mx-auto flex  flex-col h-full items-center justify-center'>
       
-        <video className='absolute opacity-40 top-0 w-full left-0 object-cover h-full' muted loop autoPlay>
-            <source  src='/videos/video-hero-3.mp4' type="video/mp4" className=''/>
+        <video poster='/images/poster-video.png' ref={refVideo} className='absolute opacity-50 top-0 w-full left-0 object-cover h-full' muted loop autoPlay>
+            <source src='https://res.cloudinary.com/dxovlysx1/video/upload/v1732290830/video-institucional-atualizado-compressed-site_1_bpjeuu.mp4' type="video/mp4" className=''/>
 
         </video>
         <div ref={ref} className='px-6 max-w-[800px] z-30 w-full mx-auto flex pt-[50px] flex-col h-[400px] justify-center gap-8 relative'>

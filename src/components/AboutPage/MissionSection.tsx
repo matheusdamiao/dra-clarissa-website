@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from '../Button'
 import Image from 'next/image'
-import foto from './../../../public/images/mission-picture.png'
+import foto from './../../../public/images/foto-nova-clarissa-3.png'
 
 const MissionSection = () => {
   return (
     <div className='lg:py-[100px] max-w-7xl mx-auto'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] xl:gap-x-[100px] px-6 h-full w-full '>
-            <div className='order-2 lg:order-1 mx-auto flex flex-col gap-5 lg:pb-[150px] pt-[40px] lg:pt-[80px]  max-w-[1000px]'>
+        <div className='grid grid-cols-1 lg:grid-cols-5 lg:gap-x-[50px] xl:gap-x-[100px] px-6 h-full w-full '>
+            <div className='order-2 lg:order-1 mx-auto col-span-2 flex flex-col gap-5 lg:pb-[150px] pt-[40px] lg:pt-[20px]  max-w-[1000px]'>
                 <small className='text-[#585858] text-xs lg:text-lg opacity-50 py-1 border-[#F5886C] text-center rounded-lg border-[1px] max-w-[160px] sm:max-w-[270px]' >
                 Missão & Valores
                 </small>
@@ -23,7 +23,7 @@ const MissionSection = () => {
 
             </div>
 
-            <Image src={foto} alt='' className='order-1 lg:order-2 w-full lg:h-[500px] lg:w-[800px] object-cover mt-[100px] lg:mt-0 '>
+            <Image src={foto} alt='' className='order-1 lg:order-2 col-span-3 w-full lg:h-[500px] lg:w-[700px] object-cover mt-[100px] lg:mt-0 '>
 
             </Image>
         </div>

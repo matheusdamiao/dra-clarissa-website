@@ -2,7 +2,7 @@
 import React from 'react'
 import Button from '../Button'
 import Image from 'next/image'
-import foto from './../../../public/images/foto-areas-de-atuacao.png'
+import foto from './../../../public/images/foto-nova-clarissa-1.png'
 import Link from 'next/link'
 import useAnimateOnView from '@/utils/useAnimateOnView'
 import { motion } from 'framer-motion'

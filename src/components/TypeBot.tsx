@@ -15,7 +15,7 @@ const TypeBot = () => {
           { backgroundColor: "#29b918",
             size:'large',
             customIconSrc:
-            "https://s3.typebot.io/public/workspaces/cltcd25yb000x11yyiklj53fq/typebots/cltcd8d36001711yylqoeph7s/bubble-icon?v=1724775462667",
+            "https://s3.typebot.io/public/workspaces/cltcd25yb000x11yyiklj53fq/typebots/cltcd8d36001711yylqoeph7s/hostAvatar?v=1732289971728",
          } }}
         
         />
